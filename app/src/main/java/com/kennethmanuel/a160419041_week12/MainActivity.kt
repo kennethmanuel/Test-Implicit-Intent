@@ -10,8 +10,10 @@ import android.provider.ContactsContract
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
     val REQUEST_SELECT_CONTACT = 1
     val REQUEST_SELECT_TEMPLATE = 2
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
